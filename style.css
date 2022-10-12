@@ -179,6 +179,10 @@ h1{
     box-shadow: 0 5px 5px #000000;
 }
 
+.butn-hidn{
+    display: none;
+}
+
 footer{  
     height: 25%;
     width: 100%;
@@ -211,8 +215,8 @@ h2{
 
 .btn-footer{
     width: 200px;
-    color: rgb(255, 252, 252);
-    background-color:#2da44e;
+    color: rgb(43, 0, 255);
+    background-color:#ffffff;
     border-radius: 6px;
     border:none;
     box-shadow: 0 5px 5px #8b8888;
@@ -410,6 +414,10 @@ h1{
     box-shadow: 0 5px 5px #000000;
 }
 
+.butn-hidn{
+    display: none;
+}
+
 footer{  
     height: 25%;
     width: 100%;
@@ -442,8 +450,8 @@ h2{
 
 .btn-footer{
     width: 200px;
-    color: rgb(255, 252, 252);
-    background-color:#2da44e;
+    color: rgb(43, 0, 255);
+    background-color:#ffffff;
     border-radius: 6px;
     border:none;
     box-shadow: 0 5px 5px #8b8888;
@@ -604,7 +612,10 @@ h2{
           box-shadow: 0 5px 5px #000000;
       }
     
-    
+      .butn-hidn{
+        display: none;
+    }
+
     footer{  
         height: 25%;
         width: 100%;
@@ -640,8 +651,8 @@ h2{
     
     .btn-footer{
         width: 200px;
-        color: rgb(255, 252, 252);
-        background-color:#2da44e;
+        color: rgb(43, 0, 255);
+        background-color:#ffffff;
         border-radius: 6px;
         border:none;
         box-shadow: 0 5px 5px #8b8888;
@@ -780,7 +791,8 @@ h2{
         
       }
       
-      .authorization button{
+      .butn-hidn{
+        display: none;
          display: flex;
          flex-direction: column;
          justify-content: space-between;
@@ -795,7 +807,7 @@ h2{
           margin: 10px;
       }
       
-      .authorization button:hover{
+      .butn-hidn:hover{
           box-shadow: 0 5px 5px #000000;
       }
     
@@ -821,7 +833,7 @@ h2{
         font-weight: 25px;
         font-size:  25px;
         padding-left: 50px;
-        m
+        
     }
     
     .text-footer{
@@ -834,8 +846,8 @@ h2{
     
     .btn-footer{
         width: 200px;
-        color: rgb(255, 252, 252);
-        background-color:#2da44e;
+        color: rgb(43, 0, 255);
+        background-color:#ffffff;
         border-radius: 6px;
         border:none;
         box-shadow: 0 5px 5px #8b8888;
