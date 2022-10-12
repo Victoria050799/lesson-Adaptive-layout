@@ -1,0 +1,852 @@
+/*Code*/
+
+html, body {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+   
+    width: 100%;
+    height: 10%;
+    background: rgb(0, 0, 0);
+    padding: 15px 0;
+    margin: 0%;
+    position: relative;
+ }
+
+ #container{
+    display: flex;
+    align-items:flex-end;
+    align-content: space-between;
+   
+ }
+
+ .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+    
+   
+ }
+
+ .logo:hover{
+    box-shadow: 2px 2px 1px rgb(0, 47, 255);
+ }
+
+ 
+ #menu {
+    float: right;
+ }
+
+ #menu li {
+    display: inline-block;
+    margin-right: 30px;
+ }
+
+ #menu a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+
+ }
+
+ #menu a:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.064);
+    border-radius: 50px;
+    box-shadow: 0 10px 10px #040975;
+
+ }
+
+ #menu li:last-child {
+    margin-right: 0;
+
+ }
+
+ 
+
+ #searchform {
+    float: right;
+    margin-left: 46px;
+    display: inline-block;
+    position: relative;
+
+ }
+ #searchform input {
+    width: 250px;
+    float: left;
+    border: none;
+    padding-left: 10px;
+    height: 30px;
+    outline: none;
+    font-style: normal;
+    border-radius: 5px;
+ }
+
+ #searchform input:hover{
+    border-radius: 24px;
+    box-shadow: 0 10px 10px #040975;
+ }
+
+ #searchform button{
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    font-weight: 600;
+ }
+
+ #searchform button:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.064);
+    border-radius: 24px;
+    box-shadow: 0 10px 10px #040975;
+
+ }
+
+main{
+    height: 65%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    border:none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.text{
+    flex-direction: column;
+    width: 75%;
+}
+
+h1{
+    font-weight: 100px;
+    font-size: 125px; 
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.GitHub {
+    font-weight: 25px;
+    font-size: 25px;
+    padding-left: 150px;
+}
+
+.authorization{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;  
+  width: 25%;
+  height: 400px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+}
+
+.authorization button{
+    background-color:#2da44e;
+    color: rgb(255, 252, 252);
+    background-color:#2da44e;
+    border-radius: 6px;
+    border:none;
+    width: 200px;
+    box-shadow: 0 5px 5px #8b8888;
+    padding: 20px;
+    margin: 10px;
+}
+
+.authorization button:hover{
+    box-shadow: 0 5px 5px #000000;
+}
+
+footer{  
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    bottom: 0;
+    margin:0%;
+}
+
+h2{
+    font-weight: 55px;
+    font-size:  55px;
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.text-footer{
+    font-weight: 25px;
+    font-size:  25px;
+    padding-left: 200px; 
+    
+}
+
+
+.btn-footer{
+    width: 200px;
+    color: rgb(255, 252, 252);
+    background-color:#2da44e;
+    border-radius: 6px;
+    border:none;
+    box-shadow: 0 5px 5px #8b8888;
+    padding:20px ;
+    margin-top: 20px;
+}
+
+.btn-footer:hover{
+    
+    box-shadow: 0 5px 5px #000000;
+}
+
+
+/*Code;desktop (default grid)*/
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) 
+{
+html, body {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+   
+    width: 100%;
+    height: 10%;
+    background: rgb(0, 0, 0);
+    padding: 15px 0;
+    margin: 0%;
+    position: relative;
+ }
+
+ #container{
+    display: flex;
+    align-items:flex-end;
+    align-content: space-between;
+   
+ }
+
+ .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+    
+   
+ }
+
+ .logo:hover{
+    box-shadow: 2px 2px 1px rgb(0, 47, 255);
+ }
+
+ 
+ #menu {
+    float: right;
+ }
+
+ #menu li {
+    display: inline-block;
+    margin-right: 30px;
+ }
+
+ #menu a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+
+ }
+
+ #menu a:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.064);
+    border-radius: 50px;
+    box-shadow: 0 10px 10px #040975;
+
+ }
+
+ #menu li:last-child {
+    margin-right: 0;
+
+ }
+
+ 
+
+ #searchform {
+    float: right;
+    margin-left: 46px;
+    display: inline-block;
+    position: relative;
+
+ }
+ #searchform input {
+    width: 250px;
+    float: left;
+    border: none;
+    padding-left: 10px;
+    height: 30px;
+    outline: none;
+    font-style: normal;
+    border-radius: 5px;
+ }
+
+ #searchform input:hover{
+    border-radius: 24px;
+    box-shadow: 0 10px 10px #040975;
+ }
+
+ #searchform button{
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    font-weight: 600;
+ }
+
+ #searchform button:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.064);
+    border-radius: 24px;
+    box-shadow: 0 10px 10px #040975;
+
+ }
+
+main{
+    height: 65%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    border:none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.text{
+    flex-direction: column;
+    width: 75%;
+}
+
+h1{
+    font-weight: 100px;
+    font-size: 125px; 
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.GitHub {
+    font-weight: 25px;
+    font-size: 25px;
+    padding-left: 150px;
+}
+
+.authorization{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;  
+  width: 25%;
+  height: 400px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+}
+
+.authorization button{
+    background-color:#2da44e;
+    color: rgb(255, 252, 252);
+    background-color:#2da44e;
+    border-radius: 6px;
+    border:none;
+    width: 200px;
+    box-shadow: 0 5px 5px #8b8888;
+    padding: 20px;
+    margin: 10px;
+}
+
+.authorization button:hover{
+    box-shadow: 0 5px 5px #000000;
+}
+
+footer{  
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    bottom: 0;
+    margin:0%;
+}
+
+h2{
+    font-weight: 55px;
+    font-size:  55px;
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.text-footer{
+    font-weight: 25px;
+    font-size:  25px;
+    padding-left: 200px; 
+    
+}
+
+
+.btn-footer{
+    width: 200px;
+    color: rgb(255, 252, 252);
+    background-color:#2da44e;
+    border-radius: 6px;
+    border:none;
+    box-shadow: 0 5px 5px #8b8888;
+    padding:20px ;
+    margin-top: 20px;
+}
+
+.btn-footer:hover{
+    
+    box-shadow: 0 5px 5px #000000;
+}
+
+
+ }
+
+ /*Code; tablet landscape*/
+@media all and (min-width: 768px) and (max-width: 1024px) 
+{
+
+    html, body {
+        max-width: 100%;
+        min-height: 100%;
+    }
+    
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+       
+        width: 100%;
+        height: 10%;
+        background: rgb(0, 0, 0);
+        padding: 15px 0;
+        margin: 0%;
+        position: relative;
+     }
+    
+     #container{
+        display: none;
+     }
+    
+     .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0;
+        
+       
+     }
+    
+     .logo:hover{
+        box-shadow: 2px 2px 1px rgb(0, 47, 255);
+     }
+    
+     
+     #menu {
+        float: right;
+     }
+    
+     #menu li {
+
+        display: none;
+        
+     }
+    
+     #menu a {
+
+        display: none;
+
+     }
+    
+    
+     
+     #searchform {
+        
+        display: none;
+        
+    
+     }
+     #searchform input {
+        display: none;
+     }
+    
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        height: 65%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        border:none;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+    }
+    
+    .text{
+        flex-direction: column;
+        width: 75%;
+    }
+    
+    h1{
+        font-weight: 100px;
+        font-size: 125px; 
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    
+    .GitHub {
+        font-weight: 25px;
+        font-size: 25px;
+        padding-left: 50px;
+    }
+
+    .authorization{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;  
+        width: 25%;
+        height: 400px;
+        background-color: #ffffff;
+        color: #000000;
+        margin: 20px 20px 20px 20px;
+        border-radius: 10px;
+        padding-right: 20px;
+      }
+      
+      .authorization button{
+          background-color:#2da44e;
+          color: rgb(255, 252, 252);
+          background-color:#2da44e;
+          border-radius: 6px;
+          border:none;
+          width: 200px;
+          box-shadow: 0 5px 5px #8b8888;
+          padding: 20px;
+          margin: 10px;
+      }
+      
+      .authorization button:hover{
+          box-shadow: 0 5px 5px #000000;
+      }
+    
+    
+    footer{  
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        position: absolute;
+        background-color: #ffffff;
+        left: 0;
+        bottom: 0;
+        margin:0%;
+    }
+    
+    h2{
+       
+        display: flex;
+        align-items: center;
+        font-weight: 55px;
+        font-size:  55px;
+        padding-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .text-footer{
+        font-weight: 25px;
+        font-size:  25px;
+        padding-left: 50px; 
+        
+    }
+    
+    
+    .btn-footer{
+        width: 200px;
+        color: rgb(255, 252, 252);
+        background-color:#2da44e;
+        border-radius: 6px;
+        border:none;
+        box-shadow: 0 5px 5px #8b8888;
+        padding:20px ;
+        margin-top: 20px;
+    }
+    
+    .btn-footer:hover{
+        
+        box-shadow: 0 5px 5px #000000;
+    }
+    
+
+ }
+
+
+ /*Code;phone landscape & smaller*/
+
+ @media all and (max-width: 480px) 
+ 
+ {
+
+    html, body {
+        max-width: 100%;
+        min-height: 100%;
+    }
+    
+    
+    header {
+        display: flex 1;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+       
+        width: 100%;
+        height: 10%;
+        background: rgb(0, 0, 0);
+        padding: 15px 0;
+        margin: 0%;
+        position: relative;
+     }
+    
+     #container{
+        display:none
+     }
+    
+     .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 0;
+        
+       
+     }
+    
+     .logo:hover{
+        box-shadow: 2px 2px 1px rgb(0, 47, 255);
+     }
+    
+     
+     #menu {
+        float: right;
+     }
+    
+     #menu li {
+
+        display: none;
+        
+     }
+    
+     #menu a {
+
+        display: none;
+
+     }
+    
+    
+     
+     #searchform {
+        
+        display: none;
+        
+    
+     }
+     #searchform input {
+        display: none;
+     }
+    
+    
+    main{
+        display: flex 2;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        height: 80%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        border:none;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+    }
+    
+    .text{
+        flex-direction: column;
+        width: 75%;
+    }
+    
+    h1{
+        font-weight: 50px;
+        font-size: 35px; 
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    
+    .GitHub {
+        font-weight: 15px;
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    .authorization{
+
+        display: none;
+        
+      }
+      
+      .authorization button{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+          background-color:#2da44e;
+          color: rgb(255, 252, 252);
+          background-color:#2da44e;
+          border-radius: 6px;
+          border:none;
+          width: 200px;
+          box-shadow: 0 5px 5px #8b8888;
+          padding: 20px;
+          margin: 10px;
+      }
+      
+      .authorization button:hover{
+          box-shadow: 0 5px 5px #000000;
+      }
+    
+    
+    footer{  
+        height: 10%;
+        width: 100%;
+        display: flex 1;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        position: absolute;
+        background-color: #ffffff;
+        left: 0;
+        bottom: 0;
+        margin:0%;
+    }
+    
+    h2{
+       
+        display: flex;
+        align-items: center;
+        font-weight: 25px;
+        font-size:  25px;
+        padding-left: 50px;
+        m
+    }
+    
+    .text-footer{
+        font-weight: 15px;
+        font-size:  15px;
+        padding-left: 10px; 
+        
+    }
+    
+    
+    .btn-footer{
+        width: 200px;
+        color: rgb(255, 252, 252);
+        background-color:#2da44e;
+        border-radius: 6px;
+        border:none;
+        box-shadow: 0 5px 5px #8b8888;
+        padding:20px ;
+        margin-top: 20px;
+    }
+    
+    .btn-footer:hover{
+        
+        box-shadow: 0 5px 5px #000000;
+    }
+    
+
+  }
